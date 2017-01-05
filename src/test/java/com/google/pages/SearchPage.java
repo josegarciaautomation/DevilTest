@@ -1,5 +1,7 @@
 package com.google.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -17,5 +19,5 @@ public class SearchPage extends Base{
 	public WebElement nextLink;
 	
 	@FindBy(xpath="//h3/a")
-	public By byResultLinks;
+	public List<WebElement> ResultLinks;
 }

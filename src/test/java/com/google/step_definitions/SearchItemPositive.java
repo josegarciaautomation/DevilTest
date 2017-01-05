@@ -49,7 +49,7 @@ public class SearchItemPositive extends Base{
 	@Then("^I see the results$")
 	public void i_see_the_results() throws Throwable {
 		wait.until(ExpectedConditions.elementToBeClickable(searchPage.nextLink));
-		list = driver.findElements(searchPage.byResultLinks);
+		list = searchPage.ResultLinks;
 	}
 
 	@Then("^the result links are valid$")

@@ -15,6 +15,6 @@ public class HomePage extends Base{
 	@FindBy(css="input[name='q']")
 	public WebElement searchInput;
 	
-	@FindBy(name="nameOfSearchButton")
+	@FindBy(name="btnG")
 	public WebElement searchButton;
 }
