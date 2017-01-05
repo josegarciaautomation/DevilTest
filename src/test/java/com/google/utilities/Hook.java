@@ -20,6 +20,6 @@ public class Hook extends Base{
 	
 	@After
 	public static void tearDown() {
-//		driver.quit();
+		driver.quit();
 	}
 }

@@ -9,6 +9,6 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(plugin={"html:target/cucumber","json:target/cucumber.json"},
 					tags={"@Test"}, dryRun=false)
 
-public class Runner {
+public class CukesRunner {
 
 }

@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2809976753,
+  "duration": 2975555708,
   "status": "passed"
 });
 formatter.scenario({
@@ -53,7 +53,7 @@ formatter.match({
   "location": "SearchItemPositive.i_am_in_the_Google_page()"
 });
 formatter.result({
-  "duration": 2430027666,
+  "duration": 2549103957,
   "status": "passed"
 });
 formatter.match({
@@ -66,32 +66,32 @@ formatter.match({
   "location": "SearchItemPositive.i_enter_to_search_for(String)"
 });
 formatter.result({
-  "duration": 312559320,
+  "duration": 234500525,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchItemPositive.i_click_in_the_search_button()"
 });
 formatter.result({
-  "duration": 234868643,
+  "duration": 214393834,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchItemPositive.i_see_the_results()"
 });
 formatter.result({
-  "duration": 1219282271,
+  "duration": 1176491743,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchItemPositive.the_result_links_are_valid()"
 });
 formatter.result({
-  "duration": 9015267715,
+  "duration": 9419253352,
   "status": "passed"
 });
 formatter.after({
-  "duration": 25204,
+  "duration": 87252075,
   "status": "passed"
 });
 });
