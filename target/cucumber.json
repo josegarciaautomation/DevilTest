@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2630103457,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User search for an item and check the links in the results page",
+        "description": "",
+        "id": "search-an-item-in-google-check-the-links-in-the-results-page;user-search-for-an-item-and-check-the-links-in-the-results-page",
+        "after": [
+          {
+            "result": {
+              "duration": 39397,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2520304308,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am in the Google page",
+            "match": {
+              "location": "SearchItemPositive.i_am_in_the_Google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263107084,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter \"selenium\" to search for",
+            "match": {
+              "arguments": [
+                {
+                  "val": "selenium",
+                  "offset": 9
+                }
+              ],
+              "location": "SearchItemPositive.i_enter_to_search_for(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 202706860,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click in the search button",
+            "match": {
+              "location": "SearchItemPositive.i_click_in_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1173100785,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I see the results",
+            "match": {
+              "location": "SearchItemPositive.i_see_the_results()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5476747351,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the result links are valid",
+            "match": {
+              "location": "SearchItemPositive.the_result_links_are_valid()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Search an item in google check the links in the results page",
+    "description": "\nAs a user, I should be able to search an item and check the links in the results page",
+    "id": "search-an-item-in-google-check-the-links-in-the-results-page",
+    "keyword": "Feature",
+    "uri": "com/google/features/searchItem.feature"
+  }
+]
